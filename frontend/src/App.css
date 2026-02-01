@@ -1,34 +1,88 @@
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+/* Custom School Website Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.App-header {
-    background-color: #0f0f10;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
 }
 
-.App-link {
-    color: #61dafb;
+/* Custom color utilities */
+.bg-mint-50 {
+  background-color: #e8f9f0;
 }
 
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+.bg-mint-100 {
+  background-color: #c3f0d8;
+}
+
+.bg-mint-200 {
+  background-color: #9de6bf;
+}
+
+.bg-mint-400 {
+  background-color: #4fd69c;
+}
+
+.bg-mint-500 {
+  background-color: #2ec78a;
+}
+
+.bg-mint-600 {
+  background-color: #25a073;
+}
+
+.from-mint-50 {
+  --tw-gradient-from: #e8f9f0;
+  --tw-gradient-to: rgb(232 249 240 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-mint-100 {
+  --tw-gradient-from: #c3f0d8;
+  --tw-gradient-to: rgb(195 240 216 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-mint-400 {
+  --tw-gradient-from: #4fd69c;
+  --tw-gradient-to: rgb(79 214 156 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-mint-50 {
+  --tw-gradient-to: #e8f9f0;
+}
+
+.to-mint-100 {
+  --tw-gradient-to: #c3f0d8;
+}
+
+.to-mint-200 {
+  --tw-gradient-to: #9de6bf;
+}
+
+.to-mint-500 {
+  --tw-gradient-to: #2ec78a;
+}
+
+.text-mint-100 {
+  color: #c3f0d8;
+}
+
+/* Custom font import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", sans-serif;
 }
