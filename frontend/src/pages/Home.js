@@ -128,6 +128,59 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Principal's Desk Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+              From the Principal's Desk
+            </h2>
+            <div className="w-24 h-1 bg-yellow-400 mx-auto"></div>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center bg-gradient-to-br from-sky-50 to-mint-50 rounded-3xl p-8 md:p-12 shadow-xl">
+            <div className="flex justify-center">
+              <div className="relative">
+                <div className="w-72 h-72 rounded-2xl overflow-hidden shadow-2xl">
+                  <img 
+                    src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600" 
+                    alt="Principal" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="absolute -bottom-4 -right-4 bg-yellow-400 px-6 py-3 rounded-full shadow-lg">
+                  <p className="font-bold text-gray-800">Principal</p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-3xl font-bold text-gray-800 mb-2">Dr. Rajesh Kumar</h3>
+              <p className="text-sky-600 font-semibold mb-6 text-lg">M.A., B.Ed., Ph.D.</p>
+              
+              <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
+                <p>
+                  Dear Parents and Students,
+                </p>
+                <p>
+                  Welcome to St. Xavier's Higher Secondary School, Naroda. Our mission is to provide 
+                  quality education that builds strong character and prepares students for a bright future. 
+                  We believe in the holistic development of every child through discipline, values, and 
+                  excellence in academics and extracurricular activities.
+                </p>
+                <p>
+                  Together, let us nurture young minds to become responsible citizens and future leaders 
+                  of our nation.
+                </p>
+                <p className="font-semibold text-gray-800 italic mt-6">
+                  "Education is not preparation for life; education is life itself."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-yellow-400 to-yellow-300">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
