@@ -8,6 +8,7 @@ import Home from "@/pages/Home";
 import About from "@/pages/About";
 import Events from "@/pages/Events";
 import Gallery from "@/pages/Gallery";
+import Notice from "@/pages/Notice";
 import Contact from "@/pages/Contact";
 import SportsDay from "@/pages/gallery/SportsDay";
 import AnnualDay from "@/pages/gallery/AnnualDay";
@@ -31,6 +32,7 @@ function App() {
           <Route path="/gallery/students-classrooms" element={<StudentsClassrooms />} />
           <Route path="/gallery/cultural-events" element={<CulturalEvents />} />
           <Route path="/gallery/activities" element={<Activities />} />
+          <Route path="/notice" element={<Notice />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
