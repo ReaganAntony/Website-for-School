@@ -8,6 +8,11 @@ import About from "@/pages/About";
 import Events from "@/pages/Events";
 import Gallery from "@/pages/Gallery";
 import Contact from "@/pages/Contact";
+import SportsDay from "@/pages/gallery/SportsDay";
+import AnnualDay from "@/pages/gallery/AnnualDay";
+import StudentsClassrooms from "@/pages/gallery/StudentsClassrooms";
+import CulturalEvents from "@/pages/gallery/CulturalEvents";
+import Activities from "@/pages/gallery/Activities";
 
 function App() {
   return (
@@ -19,6 +24,11 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/events" element={<Events />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/gallery/sports-day" element={<SportsDay />} />
+          <Route path="/gallery/annual-day" element={<AnnualDay />} />
+          <Route path="/gallery/students-classrooms" element={<StudentsClassrooms />} />
+          <Route path="/gallery/cultural-events" element={<CulturalEvents />} />
+          <Route path="/gallery/activities" element={<Activities />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
