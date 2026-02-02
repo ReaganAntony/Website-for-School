@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Phone, Clock, Instagram, Facebook } from 'lucide-react';
+import { MapPin, Phone, Clock, Instagram, Facebook, Youtube } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -51,19 +51,28 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Connect With Us</h4>
             <div className="flex space-x-4">
               <a 
-                href="https://www.instagram.com" 
+                href="https://www.youtube.com/@stxaviersnaroda" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-white text-sky-600 p-3 rounded-full hover:bg-sky-100 transition-colors"
+                className="bg-white text-red-600 p-3 rounded-full hover:bg-sky-100 transition-colors"
+                data-testid="youtube-footer-link"
+              >
+                <Youtube size={24} />
+              </a>
+              <a 
+                href="https://www.instagram.com/stxaviersnaroda" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-white text-pink-600 p-3 rounded-full hover:bg-sky-100 transition-colors"
                 data-testid="instagram-link"
               >
                 <Instagram size={24} />
               </a>
               <a 
-                href="https://www.facebook.com" 
+                href="https://www.facebook.com/stxaviersnaroda" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-white text-sky-600 p-3 rounded-full hover:bg-sky-100 transition-colors"
+                className="bg-white text-blue-600 p-3 rounded-full hover:bg-sky-100 transition-colors"
                 data-testid="facebook-link"
               >
                 <Facebook size={24} />
