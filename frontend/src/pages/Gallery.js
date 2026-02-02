@@ -97,14 +97,14 @@ const Gallery = () => {
           </div>
 
           {/* Note */}
-          <div className="mt-12 text-center">
+          {/* <div className="mt-12 text-center">
             <div className="bg-white rounded-2xl shadow-lg p-8 max-w-2xl mx-auto">
               <p className="text-gray-700 text-lg leading-relaxed">
                 <span className="font-semibold text-sky-600">Note:</span> These are placeholder images. 
                 Click any category to explore the collection. Real photos will be added soon.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>

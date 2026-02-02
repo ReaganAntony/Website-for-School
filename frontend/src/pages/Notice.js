@@ -120,8 +120,8 @@ const Notice = () => {
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
                   Please check this notice board regularly for updates. For urgent queries, 
-                  contact the school office at <a href="tel:06358278466" className="text-sky-600 hover:text-sky-700 font-semibold">063582 78466</a> or 
-                  email us at <a href="mailto:info@stxaviersnaroda.edu.in" className="text-sky-600 hover:text-sky-700 font-semibold">info@stxaviersnaroda.edu.in</a>.
+                  contact the school office at <a href="tel:90162 96969" className="text-sky-600 hover:text-sky-700 font-semibold">90162 96969</a> or 
+                  email us at <a href="mailto:stxaviersnaroda@gmail.com" className="text-sky-600 hover:text-sky-700 font-semibold">stxaviersnaroda@gmail.com</a>.
                 </p>
               </div>
             </div>

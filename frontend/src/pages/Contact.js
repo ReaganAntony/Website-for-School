@@ -47,11 +47,11 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-gray-800 text-lg mb-2">Phone</h3>
                     <a 
-                      href="tel:06358278466" 
+                      href="tel:90162 96969" 
                       className="text-sky-600 hover:text-sky-700 font-medium text-xl"
                       data-testid="phone-link"
                     >
-                      063582 78466
+                      90162 96969
                     </a>
                   </div>
                 </div>
@@ -64,11 +64,11 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-gray-800 text-lg mb-2">Email</h3>
                     <a 
-                      href="mailto:info@stxaviersnaroda.edu.in" 
+                      href="mailto:stxaviersnaroda@gmail.com" 
                       className="text-sky-600 hover:text-sky-700 font-medium text-lg"
                       data-testid="email-link"
                     >
-                      info@stxaviersnaroda.edu.in
+                      stxaviersnaroda@gmail.com
                     </a>
                   </div>
                 </div>
@@ -94,7 +94,7 @@ const Contact = () => {
                   <h3 className="font-semibold text-gray-800 text-lg mb-4">Connect With Us</h3>
                   <div className="flex space-x-4">
                     <a 
-                      href="https://www.youtube.com/@stxaviersnaroda" 
+                      href="https://www.youtube.com/@stxavierschool6593" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="bg-white p-4 rounded-full hover:bg-sky-50 transition-colors shadow-md"
@@ -103,7 +103,7 @@ const Contact = () => {
                       <Youtube size={28} className="text-red-600" />
                     </a>
                     <a 
-                      href="https://www.instagram.com/stxaviersnaroda" 
+                      href="https://www.instagram.com/stxaviersnaroda2005/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="bg-white p-4 rounded-full hover:bg-sky-50 transition-colors shadow-md"
@@ -112,7 +112,7 @@ const Contact = () => {
                       <Instagram size={28} className="text-pink-600" />
                     </a>
                     <a 
-                      href="https://www.facebook.com/stxaviersnaroda" 
+                      href="https://www.facebook.com/st.xaviershighschoolnaroda/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="bg-white p-4 rounded-full hover:bg-sky-50 transition-colors shadow-md"

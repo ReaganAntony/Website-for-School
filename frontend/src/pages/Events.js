@@ -143,11 +143,11 @@ const Events = () => {
             Contact us for more information about our events and activities
           </p>
           <a 
-            href="tel:06358278466" 
+            href="tel:90162 96969" 
             className="inline-block bg-sky-600 text-white px-10 py-4 rounded-full font-semibold text-lg hover:bg-sky-700 transition-colors shadow-lg"
             data-testid="call-us-btn"
           >
-            Call Us: 063582 78466
+            Call Us: 90162 96969
           </a>
         </div>
       </section>

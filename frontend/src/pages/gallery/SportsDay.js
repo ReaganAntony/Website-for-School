@@ -7,6 +7,7 @@ const SportsDay = () => {
 
   // All images - can handle 2000+ photos
   const allImages = [
+    // { src: '/logo.jpg', alt: 'Running Race' },
     { src: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600', alt: 'Running Race' },
     { src: 'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600', alt: 'Football Match' },
     { src: 'https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?w=600', alt: 'Basketball Game' },

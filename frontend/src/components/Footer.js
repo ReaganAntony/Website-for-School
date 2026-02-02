@@ -15,7 +15,7 @@ const Footer = () => {
                 className="h-16 w-16 object-contain bg-white rounded-lg p-1"
               />
               <div>
-                <h3 className="text-xl font-bold">St. Xavier's</h3>
+                <h3 className="text-xl font-bold">St. Xavier's Higher Secondary School</h3>
                 <p className="text-sky-100">સેન્ટ ઝેવિયર્સ સ્કુલ</p>
               </div>
             </div>
@@ -37,7 +37,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Phone size={18} />
-                <p className="text-sky-100">063582 78466</p>
+                <p className="text-sky-100">90162 96969</p>
               </div>
               <div className="flex items-center space-x-2">
                 <Clock size={18} />
@@ -51,7 +51,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Connect With Us</h4>
             <div className="flex space-x-4">
               <a 
-                href="https://www.youtube.com/@stxaviersnaroda" 
+                href="https://www.youtube.com/@stxavierschool6593" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-white text-red-600 p-3 rounded-full hover:bg-sky-100 transition-colors"
@@ -60,7 +60,7 @@ const Footer = () => {
                 <Youtube size={24} />
               </a>
               <a 
-                href="https://www.instagram.com/stxaviersnaroda" 
+                href="https://www.instagram.com/stxaviersnaroda2005/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-white text-pink-600 p-3 rounded-full hover:bg-sky-100 transition-colors"
@@ -69,7 +69,7 @@ const Footer = () => {
                 <Instagram size={24} />
               </a>
               <a 
-                href="https://www.facebook.com/stxaviersnaroda" 
+                href="https://www.facebook.com/st.xaviershighschoolnaroda/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-white text-blue-600 p-3 rounded-full hover:bg-sky-100 transition-colors"

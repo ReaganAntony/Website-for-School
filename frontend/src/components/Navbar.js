@@ -29,7 +29,7 @@ const Navbar = () => {
               className="h-14 w-14 object-contain"
             />
             <div className="flex flex-col">
-              <span className="text-xl font-bold text-gray-800">St. Xavier's</span>
+              <span className="text-xl font-bold text-gray-800">St. Xavier's Higher Secondary School</span>
               <span className="text-sm text-gray-600">Naroda</span>
             </div>
           </Link>
