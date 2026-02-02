@@ -17,7 +17,12 @@ A modern, responsive React-based website for St. Xavier's Higher Secondary Schoo
 - **Home Page:** Beautiful hero section with school introduction and key features
 - **About Us:** Detailed information about the school's history, values, and mission
 - **Events:** Upcoming and past events with dates, times, and descriptions
-- **Gallery:** Photo gallery with 9 placeholder images (ready for real photos)
+- **Gallery:** Category-based photo gallery with clickable categories:
+  - Sports Day (12 photos)
+  - Annual Day (15 photos)
+  - Students in Classrooms (10 photos)
+  - Cultural Events (14 photos)
+  - Activities (11 photos)
 - **Contact Us:** Complete contact information with Google Maps integration and social media links
 - **Responsive Design:** Works perfectly on mobile, tablet, and desktop devices
 - **Modern UI:** Fresh & vibrant color scheme (Sky Blue + Sunshine Yellow + Mint Green + White)
@@ -34,7 +39,12 @@ A modern, responsive React-based website for St. Xavier's Higher Secondary Schoo
 1. **Home (/)** - Landing page with hero section and school highlights
 2. **About Us (/about)** - School story, details, and core values
 3. **Events (/events)** - Upcoming and past events
-4. **Gallery (/gallery)** - Photo gallery (placeholder images)
+4. **Gallery (/gallery)** - Category-based photo gallery with 5 categories
+   - Sports Day (/gallery/sports-day) - 12 photos
+   - Annual Day (/gallery/annual-day) - 15 photos
+   - Students in Classrooms (/gallery/students-classrooms) - 10 photos
+   - Cultural Events (/gallery/cultural-events) - 14 photos
+   - Activities (/gallery/activities) - 11 photos
 5. **Contact (/contact)** - Contact information and Google Maps
 
 ## 🚀 Technology Stack
@@ -60,8 +70,14 @@ A modern, responsive React-based website for St. Xavier's Higher Secondary Schoo
 │   │   ├── Home.js       # Home page
 │   │   ├── About.js      # About page
 │   │   ├── Events.js     # Events page
-│   │   ├── Gallery.js    # Gallery page
-│   │   └── Contact.js    # Contact page
+│   │   ├── Gallery.js    # Gallery categories page
+│   │   ├── Contact.js    # Contact page
+│   │   └── gallery/      # Gallery category pages
+│   │       ├── SportsDay.js
+│   │       ├── AnnualDay.js
+│   │       ├── StudentsClassrooms.js
+│   │       ├── CulturalEvents.js
+│   │       └── Activities.js
 │   ├── App.js            # Main app component with routing
 │   ├── App.css           # Custom styles
 │   ├── index.js          # App entry point
@@ -88,7 +104,20 @@ Replace the placeholder images in `/app/frontend/public/`:
 
 ### Update Gallery Images
 
-In `/app/frontend/src/pages/Gallery.js`, replace the placeholder image URLs (lines 5-44) with your own images.
+The gallery is organized into categories. To update images:
+
+1. **Main Gallery Page** (`/app/frontend/src/pages/Gallery.js`):
+   - Update category cover images (lines 6-31)
+   - Change photo counts if needed
+
+2. **Individual Category Pages**:
+   - Sports Day: `/app/frontend/src/pages/gallery/SportsDay.js` (12 photos)
+   - Annual Day: `/app/frontend/src/pages/gallery/AnnualDay.js` (15 photos)
+   - Students in Classrooms: `/app/frontend/src/pages/gallery/StudentsClassrooms.js` (10 photos)
+   - Cultural Events: `/app/frontend/src/pages/gallery/CulturalEvents.js` (14 photos)
+   - Activities: `/app/frontend/src/pages/gallery/Activities.js` (11 photos)
+
+Replace the Unsplash placeholder URLs with your own image URLs.
 
 ### Update Social Media Links
 
