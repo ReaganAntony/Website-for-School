@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Phone, Clock, Mail, Instagram, Facebook } from 'lucide-react';
+import { MapPin, Phone, Clock, Mail, Instagram, Facebook, Youtube } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -56,9 +56,26 @@ const Contact = () => {
                   </div>
                 </div>
 
-                {/* Timings */}
+                {/* Email */}
                 <div className="flex items-start space-x-4 bg-gradient-to-br from-yellow-50 to-mint-50 p-6 rounded-2xl">
                   <div className="bg-yellow-500 p-3 rounded-full flex-shrink-0">
+                    <Mail size={24} className="text-white" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-800 text-lg mb-2">Email</h3>
+                    <a 
+                      href="mailto:info@stxaviersnaroda.edu.in" 
+                      className="text-sky-600 hover:text-sky-700 font-medium text-lg"
+                      data-testid="email-link"
+                    >
+                      info@stxaviersnaroda.edu.in
+                    </a>
+                  </div>
+                </div>
+
+                {/* Timings */}
+                <div className="flex items-start space-x-4 bg-gradient-to-br from-sky-50 to-yellow-50 p-6 rounded-2xl">
+                  <div className="bg-sky-500 p-3 rounded-full flex-shrink-0">
                     <Clock size={24} className="text-white" />
                   </div>
                   <div>
@@ -77,7 +94,16 @@ const Contact = () => {
                   <h3 className="font-semibold text-gray-800 text-lg mb-4">Connect With Us</h3>
                   <div className="flex space-x-4">
                     <a 
-                      href="https://www.instagram.com" 
+                      href="https://www.youtube.com/@stxaviersnaroda" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="bg-white p-4 rounded-full hover:bg-sky-50 transition-colors shadow-md"
+                      data-testid="youtube-link"
+                    >
+                      <Youtube size={28} className="text-red-600" />
+                    </a>
+                    <a 
+                      href="https://www.instagram.com/stxaviersnaroda" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="bg-white p-4 rounded-full hover:bg-sky-50 transition-colors shadow-md"
@@ -86,7 +112,7 @@ const Contact = () => {
                       <Instagram size={28} className="text-pink-600" />
                     </a>
                     <a 
-                      href="https://www.facebook.com" 
+                      href="https://www.facebook.com/stxaviersnaroda" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="bg-white p-4 rounded-full hover:bg-sky-50 transition-colors shadow-md"
@@ -96,7 +122,7 @@ const Contact = () => {
                     </a>
                   </div>
                   <p className="text-sm text-gray-600 mt-4">
-                    Follow us on social media for updates and announcements
+                    Follow us on social media for updates, announcements, and event highlights
                   </p>
                 </div>
               </div>
@@ -151,15 +177,24 @@ const Contact = () => {
             Have Questions?
           </h2>
           <p className="text-xl text-gray-700 mb-8">
-            Feel free to call us or visit our school during working hours
+            Feel free to call us, email us, or visit our school during working hours
           </p>
-          <a 
-            href="tel:06358278466" 
-            className="inline-block bg-sky-600 text-white px-10 py-4 rounded-full font-semibold text-lg hover:bg-sky-700 transition-colors shadow-lg"
-            data-testid="call-now-btn"
-          >
-            Call Now: 063582 78466
-          </a>
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <a 
+              href="tel:06358278466" 
+              className="inline-block bg-sky-600 text-white px-10 py-4 rounded-full font-semibold text-lg hover:bg-sky-700 transition-colors shadow-lg"
+              data-testid="call-now-btn"
+            >
+              Call: 063582 78466
+            </a>
+            <a 
+              href="mailto:info@stxaviersnaroda.edu.in" 
+              className="inline-block bg-white text-sky-600 px-10 py-4 rounded-full font-semibold text-lg hover:bg-gray-50 transition-colors shadow-lg"
+              data-testid="email-now-btn"
+            >
+              Email Us
+            </a>
+          </div>
         </div>
       </section>
     </div>
