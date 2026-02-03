@@ -185,7 +185,7 @@ const Contact = () => {
               className="inline-block bg-sky-600 text-white px-10 py-4 rounded-full font-semibold text-lg hover:bg-sky-700 transition-colors shadow-lg"
               data-testid="call-now-btn"
             >
-              Call: 063582 78466
+              Call: 90162 96969
             </a>
             <a 
               href="mailto:info@stxaviersnaroda.edu.in" 
